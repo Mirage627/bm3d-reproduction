@@ -27,7 +27,7 @@ Image Denoising by Sparse 3-D Transform-Domain Collaborative Filtering
 - `run_log`  
   Log file of running the main program
 ### 过程
-首先创建一个虚拟环境，再根据requirements.txt在这个环境中下载所有的软件包。
+First, create a virtual environment, and then use the `requirements.txt` file to install all the packages in this environment.
 ```python
 # 创建 Python 虚拟环境并激活它
 python -m venv .venv    # 创建虚拟环境，名称为 .venv
@@ -41,8 +41,11 @@ pip install -r requirements.txt
 # 确保所有依赖安装成功
 pip list
 ```
-然后运行demo文件夹中的所有文件，正常情况下是可以直接跑通的。
-其他bm3d主程序和tests文件可以不用动
-接下来如果想自己导入图片，可以将scripts目录下的文件导入到official_code中，也可以直接使用我整理好的runningcode
-在复现过程中，我使用了三张图片，存放在test文件夹中整个复现的结果可以在results中查看
-#### 推荐直接使用runningcode文件，直接运行main文件夹中的文件即可，自主输入图片的路径即可
+Then, run all the files in the demo folder; under normal circumstances, they can be executed directly without issues.
+
+The other BM3D main program and files in tests do not need to be modified.
+
+If you want to import your own images, you can copy the files from the scripts directory into `official_code`, or simply use the running code I have organized.
+
+During the reproduction process, I used three images, which are stored in the test folder. The full results of the reproduction can be found in results.
+#### It is recommended to use the runningcode file directly. Simply run the files in the main folder and enter the path of your images as needed.
