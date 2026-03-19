@@ -1,5 +1,5 @@
 # The Essence
-本仓库为个人对论文算法复现的初次尝试，其中也包含一些准备工作和附加材料。
+bm3d reproduction
 ## 文献
 Image Denoising by Sparse 3-D Transform-Domain Collaborative Filtering
 ## 仓库结构
@@ -13,7 +13,7 @@ Image Denoising by Sparse 3-D Transform-Domain Collaborative Filtering
 ├── LICENSE  
 ├── requirements.txt  
 └── README.md  
-## 复现过程（个人对复现的理解，可能较为粗浅）
+## process
 ### 结构
 src/ 中我放了gpt生成的加载图片并加入噪声、进行评估还有将两个程序付诸行动的运行程序的模块。
 results/ 中我放了demo和test的运行结果，包括具体的PSNR和原图、噪声图和去噪图片的对比结果。
